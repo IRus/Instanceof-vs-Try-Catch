@@ -3,7 +3,7 @@ package by.ibragimov.exceptions;
 /**
  * @author Ruslan Ibragimov
  */
-interface SampleException {
+public abstract class SampleException extends RuntimeException {
 
-    public int getInfo();
+    abstract public int getInfo();
 }
